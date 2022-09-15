@@ -1,0 +1,17 @@
+body #slider {
+  width: 516px;
+  height: 600px;
+  overflow: hidden;
+}
+body #slider .slides {
+  display: block;
+  width: 6000px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+body #slider .slide {
+  float: left;
+  width: 516px;
+  height: 600px;
+}/*# sourceMappingURL=saveforlater.css.map */
