@@ -4,13 +4,10 @@
 //https://www.freecodecamp.org/news/how-to-build-a-live-comment-feature-using-javascript-and-pusher-747d51e21430/
 //https://pusher.com/tutorials/live-comments-javascript/
 
-
-
-    //initiate an empty array for saved items
-    let saveForLater = [];
+//initiate an empty array for saved items
+let saveForLater = [];
 
 $(document).ready(function() {
-
 
     //Save user input 
     if (sessionStorage.getItem("hasCodeRunBefore") === null) {
@@ -30,9 +27,6 @@ $(document).ready(function() {
 
 });
 
-
-
-
 function listenForLikes(){
     const like = $(".like").click(function(event){
         //debugger
@@ -41,7 +35,6 @@ function listenForLikes(){
         addItemToSavedItemsPage(event);
     });
 }
-
 
 function addItemToSavedItemsPage(event){
     //I consulted with a YouTube chanel "All Things JavaScript, LLC" on how to copy data between HTML pages

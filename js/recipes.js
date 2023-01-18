@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     
     //debugger
     if(JSON.parse(sessionStorage.getItem("LikeRecp1"))){
@@ -16,9 +15,7 @@ $(document).ready(function() {
         $("#Recp3").find(".like").addClass('like-yes'); 
         $("#Recp3").find(".like").removeClass('like-no');
 
-    }  
-
-  
+    }    
 
     $(window).on("unload",function(){
         sessionStorage.setItem("LikeRecp1", $("#Recp1").find(".like").hasClass('like-yes'));
@@ -32,15 +29,11 @@ $(document).ready(function() {
 function retainLikesAfterReload(){
     //user's selections must be retained after the page refreshes 
     //https://stackoverflow.com/questions/35922306/how-to-keep-class-of-a-div-after-page-reload
-
-
-
     
     let saveForLater = JSON.parse(sessionStorage.getItem("saveForLater"));
 
     if(saveForLater){
         let sections = $(".like");
-
 
         for (let index = 0; index < sections.length; index++) {
             const element = sections[index];
