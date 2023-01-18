@@ -2,22 +2,26 @@ $(document).ready(function() {
     
     //debugger
     if(JSON.parse(sessionStorage.getItem("LikeRecp1"))){
+        //Retrive and set the 'like' for the recipe 1
         $("#Recp1").find(".like").addClass('like-yes');
         $("#Recp1").find(".like").removeClass('like-no');
 
     }  
     if(JSON.parse(sessionStorage.getItem("LikeRecp2"))){
+        //Retrive and set the 'like' for the recipe 2
         $("#Recp2").find(".like").addClass('like-yes');
         $("#Recp2").find(".like").removeClass('like-no');
 
     }  
     if(JSON.parse(sessionStorage.getItem("LikeRecp3"))){
+        //Retrive and set the 'like' for the recipe 3
         $("#Recp3").find(".like").addClass('like-yes'); 
         $("#Recp3").find(".like").removeClass('like-no');
 
     }    
 
     $(window).on("unload",function(){
+        //Save recipe "likes' on closing of the page
         sessionStorage.setItem("LikeRecp1", $("#Recp1").find(".like").hasClass('like-yes'));
         sessionStorage.setItem("LikeRecp2", $("#Recp2").find(".like").hasClass('like-yes'));
         sessionStorage.setItem("LikeRecp3", $("#Recp3").find(".like").hasClass('like-yes'));

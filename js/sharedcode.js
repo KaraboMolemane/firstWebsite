@@ -30,6 +30,7 @@ $(document).ready(function() {
 function listenForLikes(){
     const like = $(".like").click(function(event){
         //debugger
+        //This function is invoked when a use clicks on 'like'
         event.target.classList.toggle("like-no");
         event.target.classList.toggle("like-yes");
         addItemToSavedItemsPage(event);
