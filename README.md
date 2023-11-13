@@ -30,7 +30,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/KaraboMolemane/firstWebsite">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -39,10 +39,10 @@
   <p align="center">
     This is my first website which i a school project. The objective is to showcase the Javascript, HTML, and CSS skill learnt through creating a basic website which ilustrates my hobbies. 
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/KaraboMolemane/firstWebsite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/KaraboMolemane/firstWebsite">View Demo</a>
     ·
     <a href="https://github.com/KaraboMolemane/firstWebsite/issues">Report Bug</a>
     ·
@@ -188,7 +188,7 @@ N/A
 
 Karabo Molemane - https://www.linkedin.com/in/karabo-molemane/
 
-Project Link: [https://github.com/KaraboMolemane/authentication-manager](https://github.com/KaraboMolemane/authentication-manager)
+Project Link: [https://github.com/KaraboMolemane/firstWebsite](https://github.com/KaraboMolemane/firstWebsite)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,15 +207,15 @@ Project Link: [https://github.com/KaraboMolemane/authentication-manager](https:/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/KaraboMolemane/authentication-manager.svg?style=for-the-badge
-[contributors-url]: https://github.com/KaraboMolemane/authentication-manager/graphs/contributors
+[contributors-url]: https://github.com/KaraboMolemane/firstWebsite/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/KaraboMolemane/authentication-manager.svg?style=for-the-badge
-[forks-url]: https://github.com/KaraboMolemane/authentication-manager/network/members
+[forks-url]: https://github.com/KaraboMolemane/firstWebsite/network/members
 [stars-shield]: https://img.shields.io/github/stars/KaraboMolemane/authentication-manager.svg?style=for-the-badge
-[stars-url]: https://github.com/KaraboMolemane/authentication-manager/stargazers
+[stars-url]: https://github.com/KaraboMolemane/firstWebsite/stargazers
 [issues-shield]: https://img.shields.io/github/issues/KaraboMolemane/authentication-manager.svg?style=for-the-badge
-[issues-url]: https://github.com/KaraboMolemane/authentication-manager/issues
+[issues-url]: https://github.com/KaraboMolemane/firstWebsite/issues
 [license-shield]: https://img.shields.io/github/license/KaraboMolemane/authentication-manager.svg?style=for-the-badge
-[license-url]: https://github.com/KaraboMolemane/authentication-manager/blob/master/LICENSE.txt
+[license-url]: https://github.com/KaraboMolemane/firstWebsite/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/karabo-molemane/
 [product-screenshot]: images/screenshot.png
